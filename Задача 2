@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<body>
+<script>
+var a = prompt('Введите число a','');
+var b = prompt('Введите число b','');
+var n = prompt('Введите число n','');
+var h;
+var f;
+var s=0;
+var Result=0;
+if ( b>a && n >0)
+{h=(b-a)/n;
+}
+else 
+{alert("Ошибка!")}
+
+for(var i=1;i<=n;i++)
+{
+var f=(a+(i-1/2)*h)/(1+Math.pow((a+(i-1/2)*h),2));
+var s=s+f;
+}
+var Result=s*h;
+alert(Result);
+</script>
+</body>
+</html>
