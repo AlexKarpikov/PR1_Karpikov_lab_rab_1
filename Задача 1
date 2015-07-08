@@ -1,0 +1,26 @@
+# PR1_Karpikov_lab_rab_1
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Пример 37</title>
+</head>
+<body>
+<script>
+var a = prompt ('Введите число а',1)
+var b = prompt ('Введите число b',1)
+var c = prompt ('Введите число c',1)
+if (a>=b && b>=c)
+{
+alert(2*a);
+alert(2*b);
+alert(2*c);
+}
+else
+{
+alert(a);
+alert(b);
+alert(c);
+}
+</script>
+</body>
+</html>
